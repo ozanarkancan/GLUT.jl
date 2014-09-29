@@ -59,38 +59,38 @@ export glutPostRedisplay
 @getCFun libglut glutSwapBuffers glutSwapBuffers()::Void
 export glutSwapBuffers
 
-@getCFun libglut glutTimerFunc glutTimerFunc(time::Uint32, callback::Ptr{None}, value::Int32)::Void
+@getCFun libglut glutTimerFunc glutTimerFunc(time::Uint32, callback::Ptr{Void}, value::Int32)::Void
 export glutTimerFunc
-@getCFun libglut glutIdleFunc glutIdleFunc(callback::Ptr{None})::Void
+@getCFun libglut glutIdleFunc glutIdleFunc(callback::Ptr{Void})::Void
 export glutIdleFunc
 
-@getCFun libglut glutKeyboardFunc glutKeyboardFunc(callback::Ptr{None})::Void
+@getCFun libglut glutKeyboardFunc glutKeyboardFunc(callback::Ptr{Void})::Void
 export glutKeyboardFunc
-@getCFun libglut glutKeyboardUpFunc glutKeyboardUpFunc(callback::Ptr{None})::Void
+@getCFun libglut glutKeyboardUpFunc glutKeyboardUpFunc(callback::Ptr{Void})::Void
 export glutKeyboardUpFunc
-@getCFun libglut glutSpecialFunc glutSpecialFunc(callback::Ptr{None})::Void
+@getCFun libglut glutSpecialFunc glutSpecialFunc(callback::Ptr{Void})::Void
 export glutSpecialFunc
-@getCFun libglut glutSpecialUpFunc glutSpecialUpFunc(callback::Ptr{None})::Void
+@getCFun libglut glutSpecialUpFunc glutSpecialUpFunc(callback::Ptr{Void})::Void
 export glutSpecialUpFunc
 @getCFun libglut glutSetKeyRepeat glutSetKeyRepeat(repeatMode::Cint)::Cint
 export glutSetKeyRepeat
 
 
-@getCFun libglut glutReshapeFunc glutReshapeFunc(callback::Ptr{None})::Void
+@getCFun libglut glutReshapeFunc glutReshapeFunc(callback::Ptr{Void})::Void
 export glutReshapeFunc
-@getCFun libglut glutVisibilityFunc glutVisibilityFunc(callback::Ptr{None})::Void
+@getCFun libglut glutVisibilityFunc glutVisibilityFunc(callback::Ptr{Void})::Void
 export glutVisibilityFunc
-@getCFun libglut glutDisplayFunc glutDisplayFunc(callback::Ptr{None})::Void
+@getCFun libglut glutDisplayFunc glutDisplayFunc(callback::Ptr{Void})::Void
 export glutDisplayFunc
-@getCFun libglut glutMouseFunc glutMouseFunc(callback::Ptr{None})::Void
+@getCFun libglut glutMouseFunc glutMouseFunc(callback::Ptr{Void})::Void
 export glutMouseFunc
-@getCFun libglut glutMotionFunc glutMotionFunc(callback::Ptr{None})::Void
+@getCFun libglut glutMotionFunc glutMotionFunc(callback::Ptr{Void})::Void
 export glutMotionFunc
-@getCFun libglut glutPassiveMotionFunc glutPassiveMotionFunc(callback::Ptr{None})::Void
+@getCFun libglut glutPassiveMotionFunc glutPassiveMotionFunc(callback::Ptr{Void})::Void
 export glutPassiveMotionFunc
-@getCFun libglut glutEntryFunc glutEntryFunc(callback::Ptr{None})::Void
+@getCFun libglut glutEntryFunc glutEntryFunc(callback::Ptr{Void})::Void
 export glutEntryFunc
-@getCFun libGlut glutCloseFunc glutCloseFunc(callback::Ptr{None})::Void
+@getCFun libGlut glutCloseFunc glutCloseFunc(callback::Ptr{Void})::Void
 export glutCloseFunc
 
 
