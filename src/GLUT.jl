@@ -93,6 +93,14 @@ export glutEntryFunc
 @getCFun libGlut glutCloseFunc glutCloseFunc(callback::Ptr{Void})::Void
 export glutCloseFunc
 
+@getCFun libglut glutCreateMenu glutCreateMenu(callback::Ptr{None})::Int32
+export glutCreateMenu
+@getCFun libglut glutAddSubMenu glutAddSubMenu(name::Ptr{Uint8}, menu::Int32)::Void
+export glutAddSubMenu
+@getCFun libglut glutAddMenuEntry glutAddMenuEntry(name::Ptr{Uint8}, value::Int32)::Void
+export glutAddMenuEntry
+@getCFun libglut glutAttachMenu glutAttachMenu(button::Int32)::Void
+export glutAttachMenu
 
 @getCFun libglut glutGetProcAddress glutGetProcAddress(name::Ptr{Uint8})::Ptr{Void}
 export glutGetProcAddress
