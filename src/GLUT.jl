@@ -102,6 +102,16 @@ export glutAddMenuEntry
 @getCFun libglut glutAttachMenu glutAttachMenu(button::Int32)::Void
 export glutAttachMenu
 
+@getCFun libglut glutSolidTeapot glutSolidTeapot(size::Float64)::Void
+export glutSolidTeapot
+@getCFun libglut glutWireTeapot glutWireTeapot(size::Float64)::Void
+export glutWireTeapot
+
+@getCFun libglut glutSolidTorus glutSolidTorus(innerRadius::Float64, outerRadius::Float64, nsides::Int32, rings::Int32)::Void
+export glutSolidTorus
+@getCFun libglut glutWireTorus glutWireTorus(innerRadius::Float64, outerRadius::Float64, nsides::Int32, rings::Int32)::Void
+export glutWireTorus
+
 @getCFun libglut glutGetProcAddress glutGetProcAddress(name::Ptr{Uint8})::Ptr{Void}
 export glutGetProcAddress
 @getCFun libglut glutGet glutGet(state::Uint16)::Cint
